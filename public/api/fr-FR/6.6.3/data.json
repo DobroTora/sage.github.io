@@ -1,0 +1,463 @@
+{
+  "id": "6.6.3",
+  "title": "Version 6.6.3",
+  "language": "fr-FR",
+  "__archive": "/dls-release-notes/api/en-GB/archive.json",
+  "previous": "6.6.2",
+  "date": "10 Décembre 2020",
+  "content_parts": [
+    {
+      "id": "intro",
+      "type": "intro",
+      "title": "L' introduction",
+      "content": "<p>Fusce tellus nibh, suscipit at ullamcorper id, placerat non nunc. Aliquam in imperdiet mi. Mauris vitae laoreet nunc, in viverra arcu. Pellentesque at faucibus enim, non fringilla neque. Vestibulum ut ipsum eu orci volutpat luctus. Duis sagittis, enim id ullamcorper pulvinar, ligula ipsum congue mi, quis condimentum leo justo vel nunc. Vestibulum eget scelerisque libero. Nunc non mollis nunc, eu semper turpis. Maecenas ac risus laoreet, pretium ipsum quis, interdum arcu. Nullam risus leo, convallis non convallis venenatis, tincidunt vel lectus.</p> <p>Nam facilisis erat sed leo dignissim, eget faucibus felis malesuada. Sed bibendum imperdiet lorem, ultrices eleifend enim molestie non. Nunc sollicitudin nibh velit, sed placerat est iaculis eget. Donec eleifend condimentum purus id placerat. <a href='/'>Internal link</a></p>",
+      "taxonomies": "all"
+    },
+    {
+      "title": "Nom du module 1",
+      "id": "module-1",
+      "type": "module",
+      "content_parts": [
+        {
+          "type": "group",
+          "title": "Les Traits",
+          "taxonomies": {
+            "_type": ["features"]
+          },
+          "content_parts": [
+            {
+              "title": "Titre de l'article 1",
+              "content_parts": [
+                {
+                  "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+                  "taxonomies": "all"
+                },
+                {
+                  "type": "accordion",
+                  "title": "Titre de l'accordéon 1",
+                  "content": "<p>Praesent a tincidunt ipsum. Proin venenatis sodales porttitor. Quisque orci lacus, condimentum non tempor eu, rutrum ut ante. Fusce ut condimentum lorem. Morbi mattis mattis accumsan. Mauris vulputate nulla neque, quis efficitur velit pulvinar et. Fusce id nulla in ex laoreet maximus. Vivamus neque erat, commodo sit amet erat at, tempor ultrices ante.</p>",
+                  "taxonomies": "all"
+                },
+                {
+                  "content": "<figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+                  "taxonomies": "all"
+                }
+              ],
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"],
+                "software": ["cloud"]
+              }
+            },
+            {
+              "title": "Titre de l'article 2",
+              "highlight": true,
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["france-fr", "united-kingdom-uk"],
+                "edition": ["essential"],
+                "software": ["cloud"]
+              }
+            },
+            {
+              "title": "Titre de l'article 3",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"],
+                "software": ["on-premise"]
+              }
+            },
+            {
+              "title": "Titre de l'article 4",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential", "standard"],
+                "software": ["on-premise", "cloud"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Correction d'un buges",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["bug-fixes"]
+          },
+          "content_parts": [
+            {
+              "title": "Correction d'un bug 1",
+              "highlight": true,
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr", "united-kingdom-uk"],
+                "edition": ["essential", "standard"],
+                "software": ["on-premise", "cloud"]
+              }
+            },
+            {
+              "title": "Correction d'un bug 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr"],
+                "edition": ["premium"],
+                "software": ["on-premise"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Problèmes connus",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["known-issues"]
+          },
+          "content_parts": [
+            {
+              "title": "Problème connu 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "edition": ["essential", "standard", "premium"],
+                "software": ["cloud"]
+              }
+            },
+            {
+              "title": "Problème connu 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "edition": ["premium"],
+                "software": ["cloud"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nom du module 2",
+      "id": "module-2",
+      "type": "module",
+      "content_parts": [
+        {
+          "title": "Les Traits",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["features"]
+          },
+          "content_parts": [
+            {
+              "title": "Titre de l'article 1",
+              "content_parts": [
+                {
+                  "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>"
+                },
+                {
+                  "type": "accordion",
+                  "title": "Titre de l'accordéon 1",
+                  "content": "<p>Praesent a tincidunt ipsum. Proin venenatis sodales porttitor. Quisque orci lacus, condimentum non tempor eu, rutrum ut ante. Fusce ut condimentum lorem. Morbi mattis mattis accumsan. Mauris vulputate nulla neque, quis efficitur velit pulvinar et. Fusce id nulla in ex laoreet maximus. Vivamus neque erat, commodo sit amet erat at, tempor ultrices ante.</p>"
+                },
+                {
+                  "content": "<figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>"
+                }
+              ],
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 2",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["france-fr", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 3",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 4",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential", "standard"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Correction d'un buges",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["bug-fixes"]
+          },
+          "content_parts": [
+            {
+              "title": "Correction d'un bug 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr", "united-kingdom-uk"],
+                "edition": ["essential", "standard"]
+              }
+            },
+            {
+              "title": "Correction d'un bug 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr"],
+                "edition": ["premium"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Problèmes connus",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["known-issues"]
+          },
+          "content_parts": [
+            {
+              "title": "Problème connu 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "edition": ["essential", "standard", "premium"]
+              }
+            },
+            {
+              "title": "Problème connu 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "edition": ["premium"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nom du module 3",
+      "id": "module-3",
+      "type": "module",
+      "content_parts": [
+        {
+          "title": "Les Traits",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["features"]
+          },
+          "content_parts": [
+            {
+              "title": "Titre de l'article 1",
+              "content_parts": [
+                {
+                  "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>"
+                },
+                {
+                  "type": "accordion",
+                  "title": "Accordion Title 1",
+                  "content": "<p>Praesent a tincidunt ipsum. Proin venenatis sodales porttitor. Quisque orci lacus, condimentum non tempor eu, rutrum ut ante. Fusce ut condimentum lorem. Morbi mattis mattis accumsan. Mauris vulputate nulla neque, quis efficitur velit pulvinar et. Fusce id nulla in ex laoreet maximus. Vivamus neque erat, commodo sit amet erat at, tempor ultrices ante.</p>"
+                },
+                {
+                  "content": "<figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>"
+                }
+              ],
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 2",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["france-fr", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 3",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 4",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential", "standard"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Correction d'un buges",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["bug-fixes"]
+          },
+          "content_parts": [
+            {
+              "title": "Correction d'un bug 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr", "united-kingdom-uk"],
+                "edition": ["essential", "standard"]
+              }
+            },
+            {
+              "title": "Correction d'un bug 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr"],
+                "edition": ["premium"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Problèmes connus",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["known-issues"]
+          },
+          "content_parts": [
+            {
+              "title": "Problème connu 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "edition": ["essential", "standard", "premium"]
+              }
+            },
+            {
+              "title": "Problème connu 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "edition": ["premium"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nom du module 4",
+      "id": "module-4",
+      "type": "module",
+      "content_parts": [
+        {
+          "title": "Les Traits",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["features"]
+          },
+          "content_parts": [
+            {
+              "title": "Titre de l'article 1",
+              "content_parts": [
+                {
+                  "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>"
+                },
+                {
+                  "type": "accordion",
+                  "title": "Accordion Title 1",
+                  "content": "<p>Praesent a tincidunt ipsum. Proin venenatis sodales porttitor. Quisque orci lacus, condimentum non tempor eu, rutrum ut ante. Fusce ut condimentum lorem. Morbi mattis mattis accumsan. Mauris vulputate nulla neque, quis efficitur velit pulvinar et. Fusce id nulla in ex laoreet maximus. Vivamus neque erat, commodo sit amet erat at, tempor ultrices ante.</p>"
+                },
+                {
+                  "content": "<figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>"
+                }
+              ],
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"],
+                "software": ["cloud"]
+              }
+            },
+            {
+              "title": "Titre de l'article 2",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["france-fr", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 3",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><figure><img src='https://via.placeholder.com/1200x800/f2f2f2/000000/?text=espace%20réservé%20pour%20l%20image' alt='placeholder from https://placeholder.com/'/></figure><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential"]
+              }
+            },
+            {
+              "title": "Titre de l'article 4",
+              "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p><p>Donec sit amet porttitor libero. Vestibulum a dui arcu. Pellentesque vehicula facilisis tellus eu auctor. Suspendisse elementum ut diam quis hendrerit. <a href='/'>Internal link</a></p>",
+              "taxonomies": {
+                "legislation": ["belgium-be", "united-kingdom-uk"],
+                "edition": ["essential", "standard"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Correction d'un buges",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["bug-fixes"]
+          },
+          "content_parts": [
+            {
+              "title": "Correction d'un bug 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr", "united-kingdom-uk"],
+                "edition": ["essential", "standard"]
+              }
+            },
+            {
+              "title": "Correction d'un bug 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "legislation": ["germany-de", "france-fr"],
+                "edition": ["premium"]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Problèmes connus",
+          "type": "group",
+          "taxonomies": {
+            "_type": ["known-issues"]
+          },
+          "content_parts": [
+            {
+              "title": "Problème connu 1",
+              "content": "<p>Sed tristique vitae nulla sed varius. Proin mauris ex, vehicula vitae elementum ac, porta et arcu. In vitae consectetur neque. Praesent convallis mauris vel sem pharetra, nec tincidunt dui gravida. Aenean ullamcorper orci at elit eleifend blandit.</p><p>Aliquam nisi magna, consectetur in sagittis non, pretium sed sapien. Nulla diam risus, vehicula vel molestie ac, cursus vitae erat. Suspendisse at metus quis neque venenatis vehicula vel eu diam. <a href='https://brand.sage.com/d/RDMCKitCdoxj' target='_blank'>External link</a></p>",
+              "taxonomies": {
+                "edition": ["essential", "standard", "premium"]
+              }
+            },
+            {
+              "title": "Problème connu 2",
+              "content": "<p>Fusce ultricies dapibus libero id tempus. Nulla facilisi. Pellentesque egestas urna sed bibendum porta.</p>",
+              "taxonomies": {
+                "edition": ["premium"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

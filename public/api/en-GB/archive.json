@@ -1,0 +1,39 @@
+{
+  "__self": "/dls-release-notes/api/en-GB/archive.json",
+  "product": "[Product name]",
+  "language": "en-GB",
+  "labels": "/dls-release-notes/api/en-GB/labels.json",
+  "taxonomies": "/dls-release-notes/api/en-GB/taxonomies.json",
+  "alternative_langauges": [
+    {
+      "title": "English - UK",
+      "id": "en-GB",
+      "url": "/dls-release-notes/api/en-GB/archive.json"
+    },
+    {
+      "title": "French - FR",
+      "id": "fr-FR",
+      "url": "/dls-release-notes/api/fr-FR/archive.json"
+    }
+  ],
+  "releases": [
+    {
+      "id": "6.6.3",
+      "title": "6.6.3",
+      "url": "/dls-release-notes/api/en-GB/6.6.3/data.json",
+      "date": "10 December 2020"
+    },
+    {
+      "id": "6.6.2",
+      "title": "6.6.2",
+      "url": "/dls-release-notes/api/en-GB/6.6.2/data.json",
+      "date": "9 December 2020"
+    },
+    {
+      "id": "6.6.1",
+      "title": "6.6.1",
+      "url": "/dls-release-notes/api/en-GB/6.6.1/data.json",
+      "date": "8 December 2020"
+    }
+  ]
+}
