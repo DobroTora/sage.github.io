@@ -1,0 +1,100 @@
+{
+  "__self": "/dls-release-notes/api/en-FR/taxonomies.json",
+  "taxonomies": [
+    {
+      "id": "legislation",
+      "title": "Législation",
+      "pills": true,
+      "options": [
+        {
+          "id": "belgium-be",
+          "title": "BE Belgium",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "france-fr",
+          "title": "FR France",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "germany-de",
+          "title": "DE Germany",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "spain-es",
+          "title": "ES Spain",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "portugal-pt",
+          "title": "PT Portugal",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "united-kingdom-uk",
+          "title": "UK United Kingdon",
+          "color": "rgba(0,0,0,.3)"
+        }
+      ]
+    },
+    {
+      "id": "edition",
+      "title": "Édition",
+      "pills": true,
+      "options": [
+        {
+          "id": "essential",
+          "title": "Essentiel",
+          "color": "#335c6d"
+        },
+        {
+          "id": "standard",
+          "title": "Standard",
+          "color": "#335c6d"
+        },
+        {
+          "id": "premium",
+          "title": "Prime",
+          "color": "#335c6d"
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Logiciel",
+      "pills": true,
+      "options": [
+        {
+          "id": "cloud",
+          "title": "Nuage",
+          "color": "#008200"
+        },
+        {
+          "id": "on-premise",
+          "title": "Sur site",
+          "color": "#008200"
+        }
+      ]
+    },
+    {
+      "id": "_type",
+      "title": "Update type",
+      "pills": false,
+      "options": [
+        {
+          "id": "features",
+          "title": "Les traits"
+        },
+        {
+          "id": "bug-fixes",
+          "title": "Corrections de bogues"
+        },
+        {
+          "id": "known-issues",
+          "title": "Problèmes connus"
+        }
+      ]
+    }
+  ]
+}

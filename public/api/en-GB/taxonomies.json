@@ -1,0 +1,100 @@
+{
+  "__self": "/dls-release-notes/api/en-GB/taxonomies.json",
+  "taxonomies": [
+    {
+      "id": "legislation",
+      "title": "Legislation",
+      "pills": true,
+      "options": [
+        {
+          "id": "belgium-be",
+          "title": "BE Belgium",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "france-fr",
+          "title": "FR France",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "germany-de",
+          "title": "DE Germany",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "spain-es",
+          "title": "ES Spain",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "portugal-pt",
+          "title": "PT Portugal",
+          "color": "rgba(0,0,0,.3)"
+        },
+        {
+          "id": "united-kingdom-uk",
+          "title": "UK United Kingdon",
+          "color": "rgba(0,0,0,.3)"
+        }
+      ]
+    },
+    {
+      "id": "edition",
+      "title": "Edition",
+      "pills": true,
+      "options": [
+        {
+          "id": "essential",
+          "title": "Essential",
+          "color": "#335c6d"
+        },
+        {
+          "id": "standard",
+          "title": "Standard",
+          "color": "#335c6d"
+        },
+        {
+          "id": "premium",
+          "title": "Premium",
+          "color": "#335c6d"
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "pills": true,
+      "options": [
+        {
+          "id": "cloud",
+          "title": "Cloud",
+          "color": "#008200"
+        },
+        {
+          "id": "on-premise",
+          "title": "On-premise",
+          "color": "#008200"
+        }
+      ]
+    },
+    {
+      "id": "_type",
+      "title": "Update type",
+      "pills": false,
+      "options": [
+        {
+          "id": "features",
+          "title": "Features"
+        },
+        {
+          "id": "bug-fixes",
+          "title": "Bug Fixes"
+        },
+        {
+          "id": "known-issues",
+          "title": "Known Issues"
+        }
+      ]
+    }
+  ]
+}
